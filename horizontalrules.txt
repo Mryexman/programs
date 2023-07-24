@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Horizontal Rule Example</title>
+</head>
+<body>
+<h1>Welcome to Our Website</h1>
+<p>This is some introductory text on our webpage.</p>
+<hr>
+<h2>Section 1</h2>
+<p>This is the content of section 1.</p>
+<hr>
+<h2>Section 2</h2>
+<p>This is the content of section 2.</p>
+<hr>
+<p>This is some concluding text on our webpage.</p>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Image and Text Example</title>
+    <style>
+        .image-container {
+            float: left;
+            margin-right: 30px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            align-items: flex-start;
+        }
+        .image {
+            width: 200px;
+            height: 200px;
+        }
+        .text {
+            margin-top: -25px;
+            margin-left: 210px;
+        }
+        .text p:nth-of-type(2) {
+            margin-left: -27px;
+            margin-top: -10px; 
+        }
+        .centered-container {
+            display: flex;
+            align-items: center;
+            text-align: center;
+            height: 90vh;
+            margin: 0; 
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img class="image" src="/wp6411113-johan-liebert-wallpapers.jpg" alt="Your Image">
+        <div class="text">
+            <p>I am Justice! I protect the innocent and those who fear evil. </p>
+            <p>I'm the one who will become the god of a new world that everyone desires ..</p>
+        </div>
+    </div>
+    <div class="centered-container">
+        <p>For more info <a href="https://www.ranker.com/list/best-light-yagami-quotes/ranker-anime">click Here.</a></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Webpage with Inline Styles</title>
+    <style>
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+        .styled-box {
+            background-color: #f0f0f0;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        .styled-box h2 {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+<h1>Welcome to My Webpage</h1>
+<p>This is some text on my webpage.</p>
+<div class="styled-box">
+    <h2>About Me</h2>
+    <p>I am a web developer and love creating beautiful websites.</p>
+</div>
+<p>This is some more content on the webpage.</p>
+</body>
+</html>
