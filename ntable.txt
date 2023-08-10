@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Nested Table Example</title>
+</head>
+<body>
+<h1>Nested Table Example</h1>
+<table border="1">
+<tr>
+<th>Main Table Header 1</th>
+<th>Main Table Header 2</th>
+</tr>
+<tr>
+<td>
+<!-- Nested Table -->
+<table border="1">
+<tr>
+<th>Name</th>
+<th>Age</th>
+</tr>
+<tr>
+<td>John Doe</td>
+<td>30</td>
+</tr>
+<tr>
+<td>Jane Smith</td>
+<td>25</td>
+</tr>
+</table>
+</td>
+<td>Main Table Data 1</td>
+</tr>
+<tr>
+<td>Main Table Data 2</td>
+<td>Main Table Data 3</td>
+</tr>
+</table>
+</body>
+</html
