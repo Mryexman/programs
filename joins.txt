@@ -1,0 +1,25 @@
+Implement Joins 
+
+AIM :
+    To write a SQL query to implement Joins.
+Description:
+     A SQL join classes combines columns from one or more tables is a relational database. It creates a set that can be saved as a table or used as it is. A join means for combining columns from one ( self table ) or more tables by using values common to each ANSI standard SQL specifies fierce. Types of joins -> inner join , cross join , left outer join, right outer join, full outer join.
+
+===> QUERIES:
+
+*Inner join:
+    Select ename , sal, gender, phno from employee , emp where employee, eno = emp.no;
+
+*Left outer join:
+   It gives the matching rows and the rows which are in left table but not in right table.
+Ex : select ename,sal, gender, phno from employee,left join emp on employee.eno = emp.no;
+
+*Right outer join:
+   Select empno,ename,dname,add from emp right outer join dpt on emp.deptno = dept.stno;
+
+* Full outer join:
+    Select empno,ename,dt.no,d.name,add from emp full join dpt on emp.deptno = dept.dtno;
+
+*Cross join:
+   Select* from employee.emp;
+Ex: select* from employee cross join emp;
