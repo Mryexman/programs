@@ -1,0 +1,18 @@
+Dcl
+
+Aim:
+    To write the queries for Dcl.
+Description DCL :
+     Dcl cmds are used to grant and revoke from any database user. Here are some cmds that comes under DCL.
+° Grant
+° Revoke
+
+@ Grant : 
+        It is used to give user access privileges to a database.
+Syntax : grant <permission list> on <table name > to <user list >;
+Ex: Grant select, insert on emp to user2;
+
+@ Revoke :
+     It is used to take back permission from the user .
+Syntax: revoke <permission list> on <table name> from <user list>;
+Ex: revoke select, insert on emp from user;
