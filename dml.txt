@@ -1,0 +1,39 @@
+Dml
+
+Aim : 
+    To write the queries for Dml
+
+Description DML :
+     A Dml is a family syntax elements to computer programming language used for selecting, inserting, updating and deleting data in a database. Performing real-only queries of data is sometimes also considered a component of Dml .
+Cmds in dml are : insert, update, delete, select.
+
+Dml cmds ==>
+
+1. Insert statement:
+  a.. insert into values Method ---
+           Syntax: insert into <table name> values { val1,val2... Valn };
+  b.. insert into Address method ---
+        Syntax: insert into <table name> values ( &col1,&col2...&coln);
+
+2. Update statement :
+     Syntax: update <table name > set col1=val1.... Coln = valn where <condition>;
+
+3. Delete statement:
+    Syntax: Delete from <table name> where <condition>;
+
+Dml Queries ===>
+
+*write a query to insert the records into emp 
+Ans : insert into emp values(1,'vijay',2000);
+
+*Write a query to display the records from emp .
+Ans: select* from emp;
+
+*Write a query to insert the records into emp using substitution method.
+Ans: insert into emp values (&eno,'&ename',&salary);
+
+*Write a query to update the records from emp.
+Ans : update emp set sal=40000 where eno=3;
+
+*Write a query to delete the records from emp.
+Ans: delete from emp where ename='vijay';
