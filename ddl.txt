@@ -1,0 +1,60 @@
+Ddl
+
+Aim:
+     To write the queries for ddl.
+Description ddl :
+       A Ddl or data description language is syntax similar to a computer programming language for defining data structures especially database schemas.
+Cmds in ddl are : create, drop, truncate , alter, rename
+
+DDL COMMANDS==>
+
+1.create :
+  Syntax: create table <table name> (col1 data type(size), (col2 data type(size) , (coln data type(size));
+
+2.Alter 
+    a.. Alter with ADD :
+       alter table <table name> add (col data type(size));
+    b.. Alter with MODIFY :
+       alter table <table name> modify (col data type(size));
+    c.. Alter with RENAME :
+alter table <table name> rename column <oldname> to <newname>;
+
+3. Drop :
+    alter table <table name> drop column < colname > ;
+
+    Drop table <table name>;
+
+3. Truncate:
+    Truncate table <table name>;
+
+4. Rename : 
+    Rename table <table name>;
+
+DDL QUERIES===>
+
+*Write a query to create a table student with sno, same.
+Ans: create table studentts ( sno number(3), sname varchar(20));
+
+*Write a query to alter with add the column.
+Ans: alter table studentts add ( dob varchar(9));
+
+*Write a query to alter column.
+Ans: alter table studentts modify ( sno number(2));
+
+* Write a query to rename the column from students.
+Ans: alter table studentts rename column sname to student names ;
+
+*Write a query to drop a column from an existing table studentts.
+Ans: alter table studentts drop column dob;
+
+*Write a query to truncate an existing table studentts.
+Ans: Truncate table studentts;
+
+*Write a query to rename the table.
+Ans: Rename Students to studentsofmscs;
+
+*Write a query to drop the table.
+Ans: drop of table studentsofmscs;
+
+Outcome : 
+    To understand the basic cmds in ddl and their usage in Database.
