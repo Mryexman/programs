@@ -1,0 +1,8 @@
+x=input('initial value is');
+r=input('interest rate');
+w=input('max time is');
+n=1;
+for(t=1:w)
+    ci=(x)*((1+(r/100))^(n*t))
+end
+fprintf("compound interest = %d",ci)
