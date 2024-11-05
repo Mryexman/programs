@@ -6,3 +6,13 @@ for(t=1:w)
     ci=(x)*((1+(r/100))^(n*t))
 end
 fprintf("compound interest = %d",ci)
+
+// initial value is 5
+interest rate 3
+max time is 10
+ci = 5.1500
+ci = 5.3045
+ci = 5.4636
+ci = 5.6275
+ci = 5.9703
+6.1491 , 6.3339 . 6.5239, 6.7196, 6.71958
