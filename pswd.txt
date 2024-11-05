@@ -1,0 +1,14 @@
+p=input("Enter the password= ");
+s=length(p);
+while(s<6)
+disp("short pswd")
+p=input("reenter the pswd = ");
+s=length(p);
+end
+disp("pswd accepted")
+
+// enter the pswd = 20000
+short pswd
+reenter the pswd = 12644
+short pswd
+reenter the pswd= 
